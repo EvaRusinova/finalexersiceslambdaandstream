@@ -16,13 +16,17 @@ public class CountComma {
                 "Антоан Русинов, издателство на бордови игри. " +
                 "Повече информация на сайта ни youlead.bg ";
         char comma = ',';
-        int countChar = 0;
-
-        for (int i = 0; i < text.length(); i++) {
-            if (text.charAt(i) == comma) {
-                countChar++;
-            }
-        }
-        System.out.println(countChar);
+        System.out.println("Amount of commas in the text: " + CountCharA.countChar(text, comma));
+        //The solution is the same as the solution of the CountCharA exercise.
     }
 }
+
+///FIRST SOLUTION
+//        for (int i = 0; i < text.length(); i++) {
+//            if (text.charAt(i) == comma) {
+//                countChar++;
+//            }
+//        }
+//        System.out.println(countChar);
+//    }
+//}
